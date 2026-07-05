@@ -458,6 +458,17 @@ h2 {
   font-weight: 500;
 }
 
+.event-location a {
+  color: var(--blu-mare);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.event-location a:hover {
+  color: var(--blu-scuro);
+  text-decoration: underline;
+}
+
 @media (max-width: 600px) {
   .meteo-forecast {
     grid-template-columns: repeat(3, 1fr);
