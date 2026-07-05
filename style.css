@@ -421,6 +421,134 @@ h2 {
   color: #991B1B;
 }
 
+/* QUIZ */
+#quiz {
+  background: linear-gradient(135deg, #F0F9FF 0%, #E0F2FE 100%);
+  padding: 60px 40px;
+  border-radius: var(--radius);
+}
+
+.quiz-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.quiz-progress {
+  position: relative;
+  height: 8px;
+  background: #CBD5E1;
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+
+.quiz-progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--blu-mare), var(--blu-scuro));
+  border-radius: 4px;
+  transition: width 0.4s ease;
+  width: 10%;
+}
+
+.quiz-progress-text {
+  position: absolute;
+  right: 0;
+  top: -28px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--blu-scuro);
+}
+
+.quiz-question {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--blu-scuro);
+  text-align: center;
+  margin-bottom: 40px;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.quiz-btn {
+  padding: 16px 60px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.quiz-btn:hover {
+  transform: scale(1.05);
+}
+
+.quiz-btn-yes {
+  background: linear-gradient(135deg, #10B981, #059669);
+  color: white;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.4);
+}
+
+.quiz-btn-no {
+  background: linear-gradient(135deg, #F87171, #EF4444);
+  color: white;
+  box-shadow: 0 4px 14px rgba(239, 68, 68, 0.4);
+}
+
+.quiz-result {
+  text-align: center;
+  padding: 40px;
+}
+
+.quiz-result-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.quiz-result h3 {
+  font-size: 2rem;
+  color: var(--blu-scuro);
+  margin-bottom: 16px;
+}
+
+.quiz-result p {
+  font-size: 1.1rem;
+  color: #6B7280;
+  max-width: 500px;
+  margin: 0 auto 24px;
+}
+
+.quiz-result-percent {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--blu-mare);
+  margin-bottom: 32px;
+}
+
+.quiz-btn-restart {
+  padding: 14px 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  background: var(--blu-mare);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.quiz-btn-restart:hover {
+  background: var(--blu-scuro);
+  transform: translateY(-2px);
+}
+
 /* FOOTER */
 footer {
   background: var(--blu-scuro);
