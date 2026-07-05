@@ -16,7 +16,7 @@ h1{
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-top: 50px;
-    margin-left: 500px;
+  
 }
 
 
@@ -40,3 +40,11 @@ h1{
 .box-info.attivo {
     display: block;
 }
+
+
+
+#divbottone{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;}
