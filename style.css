@@ -6,8 +6,9 @@ h1{
 }
 
 .btn-info {
-    background-color: #007BFF;
-    color: white;
+    text-align: center;
+    background-color: #4ee7f5;
+    color: black;
     border: none;
     padding: 12px 24px;
     font-size: 16px;
