@@ -267,7 +267,7 @@ document.querySelectorAll('.map-link').forEach(link => {
 
 closeMapModal.addEventListener('click', function() {
   mapModal.classList.remove('active');
-  mapModal.classList.remove('expanded');
+  mapModal.style.height = '';
   setTimeout(() => {
     mapIframe.src = '';
   }, 300);
@@ -280,17 +280,18 @@ let startY = 0;
 let startHeight = 0;
 
 mapHandle.addEventListener('mousedown', startDrag);
-mapHandle.addEventListener('touchstart', startDrag);
+mapHandle.addEventListener('touchstart', startDrag, { passive: true });
 
 function startDrag(e) {
   isDragging = true;
   startY = e.type === 'touchstart' ? e.touches[0].clientY : e.clientY;
   startHeight = mapModal.offsetHeight;
   document.body.style.userSelect = 'none';
+  mapModal.style.transition = 'none';
 }
 
 document.addEventListener('mousemove', drag);
-document.addEventListener('touchmove', drag);
+document.addEventListener('touchmove', drag, { passive: true });
 
 function drag(e) {
   if (!isDragging) return;
@@ -300,12 +301,6 @@ function drag(e) {
   const newHeight = Math.min(Math.max(startHeight + diff, window.innerHeight * 0.5), window.innerHeight * 0.85);
   
   mapModal.style.height = newHeight + 'px';
-  
-  if (newHeight > window.innerHeight * 0.7) {
-    mapModal.classList.add('expanded');
-  } else {
-    mapModal.classList.remove('expanded');
-  }
 }
 
 document.addEventListener('mouseup', endDrag);
@@ -315,15 +310,14 @@ function endDrag() {
   if (!isDragging) return;
   isDragging = false;
   document.body.style.userSelect = '';
+  mapModal.style.transition = '';
   
   const currentHeight = mapModal.offsetHeight;
   const threshold = window.innerHeight * 0.65;
   
   if (currentHeight > threshold) {
     mapModal.style.height = '85vh';
-    mapModal.classList.add('expanded');
   } else {
     mapModal.style.height = '50vh';
-    mapModal.classList.remove('expanded');
   }
 }
