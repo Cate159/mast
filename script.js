@@ -82,10 +82,10 @@ const quizQuestions = [
   {
     question: "Cosa ti piace fare la sera?",
     options: [
-      { img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400", label: "Rilassarmi guardando il tramonto", category: "relax" },
+      { img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400", label: "Rilassarmi guardando il tramonto", category: "relax" },
       { img: "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=400", label: "Esplorare la città illuminata", category: "cultura" },
       { img: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400", label: "Cena gourmet con vista mare", category: "foodie" },
-      { img: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=400", label: "Ballare fino all'alba", category: "festa" }
+      { img: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=400", label: "Ballare fino all'alba", category: "festa" }
     ]
   },
   {
@@ -110,7 +110,7 @@ const quizQuestions = [
     question: "Quale esperienza culturale ti affascina?",
     options: [
       { img: "https://images.unsplash.com/photo-1548013146-72479768bada?w=400", label: "Visita a luoghi storici", category: "cultura" },
-      { img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400", label: "Passeggiate panoramiche", category: "relax" },
+      { img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400", label: "Passeggiate panoramiche", category: "relax" },
       { img: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=400", label: "Escursioni nella natura", category: "avventura" },
       { img: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=400", label: "Concerti ed eventi live", category: "festa" }
     ]
@@ -118,10 +118,10 @@ const quizQuestions = [
   {
     question: "Quale souvenir porteresti a casa?",
     options: [
-      { img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400", label: "Prodotti tipici locali", category: "foodie" },
+      { img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400", label: "Prodotti tipici locali", category: "foodie" },
       { img: "https://images.unsplash.com/photo-1531058020387-3be344556be6?w=400", label: "Foto di paesaggi mozzafiato", category: "avventura" },
       { img: "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=400", label: "Oggetti artigianali storici", category: "cultura" },
-      { img: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400", label: "Ricordi di serate indimenticabili", category: "festa" }
+      { img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400", label: "Ricordi di serate indimenticabili", category: "festa" }
     ]
   }
 ];
@@ -134,7 +134,7 @@ const quizResults = {
     suggestions: [
       { img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=300", title: "Spiaggia Bellaria", desc: "Relax totale sul mare" },
       { img: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=300", title: "Yoga al mare", desc: "Laboratori sulla spiaggia" },
-      { img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300", title: "Tramonto sul lungomare", desc: "Passeggiate indimenticabili" },
+      { img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=300", title: "Tramonto sul lungomare", desc: "Passeggiate indimenticabili" },
       { img: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=300", title: "Hotel con Spa", desc: "Centro benessere incluso" }
     ]
   },
@@ -156,7 +156,7 @@ const quizResults = {
     suggestions: [
       { img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=300", title: "Piadina romagnola", desc: "Laboratori a Cesena" },
       { img: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=300", title: "Ristoranti sul porto", desc: "Pesce fresco a Bellaria" },
-      { img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300", title: "Degustazione vini", desc: "Colli di Rimini" },
+      { img: "https://images.unsplash.com/photo-1504376798147-1da06da64318?w=300", title: "Degustazione vini", desc: "Colli di Rimini" },
       { img: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=300", title: "Tour gastronomico", desc: "Santarcangelo" }
     ]
   },
@@ -165,9 +165,9 @@ const quizResults = {
     title: "Sei un Festaiolo!",
     text: "La sera è il tuo momento! A Bellaria: Notte Rosa con eventi e concerti, locali sul lungomare, Notte Blu con mercatini e musica dal vivo, le Frecce Tricolori a giugno. Città vicine: discoteche e locali di Rimini e Riccione, festival estivi di Santarcangelo, Paganini e del Blues, eventi all'aperto a Cervia, Villaggio della Spensieratezza.",
     suggestions: [
-      { img: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=300", title: "Notte Rosa", desc: "L'evento dell'estate" },
+      { img: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=300", title: "Notte Rosa", desc: "L'evento dell'estate" },
       { img: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=300", title: "Concerti live", desc: "Sul lungomare" },
-      { img: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=300", title: "Discoteche Rimini", desc: "Nightlife famoso" },
+      { img: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=300", title: "Discoteche Rimini", desc: "Nightlife famoso" },
       { img: "https://images.unsplash.com/photo-1533777851728-3ae5c6cf47d3?w=300", title: "Frecce Tricolori", desc: "Spettacolo a giugno" }
     ]
   },
@@ -249,13 +249,11 @@ function showResult() {
     }
   }
   
-  const percentage = Math.round((maxScore / quizQuestions.length) * 100);
   const data = quizResults[topCategory];
   
   document.getElementById('resultIcon').textContent = data.icon;
   document.getElementById('resultTitle').textContent = data.title;
   document.getElementById('resultText').textContent = data.text;
-  document.getElementById('resultPercent').textContent = `${percentage}% di affinità con questo tipo di vacanza`;
   
   const carouselEl = document.getElementById('quizCarousel');
   carouselEl.innerHTML = data.suggestions.map(s => `

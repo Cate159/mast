@@ -537,16 +537,9 @@ h2 {
   font-size: 1rem;
   color: #6B7280;
   max-width: 700px;
-  margin: 0 auto 24px;
+  margin: 0 auto 32px;
   line-height: 1.8;
   text-align: left;
-}
-
-.quiz-result-percent {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: var(--blu-mare);
-  margin-bottom: 32px;
 }
 
 .quiz-carousel {
