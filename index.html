@@ -157,20 +157,17 @@
 
     <section id="quiz">
       <h2>Scopri la tua vacanza ideale</h2>
-      <p class="section-desc">Rispondi rapidamente a 10 domande per scoprire quale tipo di vacanza fa per te!</p>
+      <p class="section-desc">Scegli le immagini che ti piacciono di più per scoprire la tua vacanza perfetta!</p>
       
       <div class="quiz-container" id="quizContainer">
         <div class="quiz-progress">
           <div class="quiz-progress-bar" id="quizProgress"></div>
-          <span class="quiz-progress-text" id="quizProgressText">1/10</span>
+          <span class="quiz-progress-text" id="quizProgressText">1/6</span>
         </div>
         
         <div class="quiz-question" id="quizQuestion"></div>
         
-        <div class="quiz-buttons">
-          <button class="quiz-btn quiz-btn-yes" id="btnYes">Sì</button>
-          <button class="quiz-btn quiz-btn-no" id="btnNo">No</button>
-        </div>
+        <div class="quiz-images" id="quizImages"></div>
       </div>
       
       <div class="quiz-result" id="quizResult" style="display: none;">
@@ -178,6 +175,7 @@
         <h3 id="resultTitle"></h3>
         <p id="resultText"></p>
         <div class="quiz-result-percent" id="resultPercent"></div>
+        <div class="quiz-carousel" id="quizCarousel"></div>
         <button class="quiz-btn-restart" id="btnRestart">Rifai il quiz</button>
       </div>
     </section>
