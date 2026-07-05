@@ -400,6 +400,27 @@ h2 {
   transform: translateY(-2px);
 }
 
+.form-message {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  display: none;
+}
+
+.form-message.success {
+  display: block;
+  background: #D1FAE5;
+  color: #065F46;
+}
+
+.form-message.error {
+  display: block;
+  background: #FEE2E2;
+  color: #991B1B;
+}
+
 /* FOOTER */
 footer {
   background: var(--blu-scuro);
