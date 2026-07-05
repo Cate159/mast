@@ -247,3 +247,27 @@ function restartQuiz() {
 document.getElementById('btnRestart').addEventListener('click', restartQuiz);
 
 updateQuiz();
+
+// Event map modal
+const mapModal = document.getElementById('eventMapModal');
+const mapIframe = document.getElementById('mapIframe');
+const mapTitle = document.getElementById('mapTitle');
+const closeMapModal = document.getElementById('closeMapModal');
+
+document.querySelectorAll('.map-link').forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    const mapUrl = this.getAttribute('data-map');
+    const title = this.getAttribute('data-title');
+    mapIframe.src = mapUrl;
+    mapTitle.textContent = title;
+    mapModal.classList.add('active');
+  });
+});
+
+closeMapModal.addEventListener('click', function() {
+  mapModal.classList.remove('active');
+  setTimeout(() => {
+    mapIframe.src = '';
+  }, 300);
+});
