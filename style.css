@@ -19,6 +19,10 @@ h1{
   
 }
 
+.box {
+    background: url('foto.jpg') center/cover no-repeat;
+    height: 100vh;
+}
 
 .btn-info:hover {
     background-color: #0056b3;
