@@ -267,7 +267,63 @@ document.querySelectorAll('.map-link').forEach(link => {
 
 closeMapModal.addEventListener('click', function() {
   mapModal.classList.remove('active');
+  mapModal.classList.remove('expanded');
   setTimeout(() => {
     mapIframe.src = '';
   }, 300);
 });
+
+// Drag to expand map modal
+const mapHandle = document.getElementById('mapHandle');
+let isDragging = false;
+let startY = 0;
+let startHeight = 0;
+
+mapHandle.addEventListener('mousedown', startDrag);
+mapHandle.addEventListener('touchstart', startDrag);
+
+function startDrag(e) {
+  isDragging = true;
+  startY = e.type === 'touchstart' ? e.touches[0].clientY : e.clientY;
+  startHeight = mapModal.offsetHeight;
+  document.body.style.userSelect = 'none';
+}
+
+document.addEventListener('mousemove', drag);
+document.addEventListener('touchmove', drag);
+
+function drag(e) {
+  if (!isDragging) return;
+  
+  const currentY = e.type === 'touchmove' ? e.touches[0].clientY : e.clientY;
+  const diff = startY - currentY;
+  const newHeight = Math.min(Math.max(startHeight + diff, window.innerHeight * 0.5), window.innerHeight * 0.85);
+  
+  mapModal.style.height = newHeight + 'px';
+  
+  if (newHeight > window.innerHeight * 0.7) {
+    mapModal.classList.add('expanded');
+  } else {
+    mapModal.classList.remove('expanded');
+  }
+}
+
+document.addEventListener('mouseup', endDrag);
+document.addEventListener('touchend', endDrag);
+
+function endDrag() {
+  if (!isDragging) return;
+  isDragging = false;
+  document.body.style.userSelect = '';
+  
+  const currentHeight = mapModal.offsetHeight;
+  const threshold = window.innerHeight * 0.65;
+  
+  if (currentHeight > threshold) {
+    mapModal.style.height = '85vh';
+    mapModal.classList.add('expanded');
+  } else {
+    mapModal.style.height = '50vh';
+    mapModal.classList.remove('expanded');
+  }
+}
