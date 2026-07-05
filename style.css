@@ -74,7 +74,7 @@ body {
 /* HERO */
 .hero {
   background: linear-gradient(rgba(12,74,110,0.6), rgba(12,74,110,0.6)),
-              url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_8ZmChFo85BnIzGJh21IX3494HpGHLQlSOsL-8mV5AA&s=10') center/cover;
+              url('https://turismo.emilia-romagna.it/wp-content/uploads/sites/148/bellaria-hd.jpg') center/cover;
   height: 60vh;
   display: flex;
   align-items: center;
