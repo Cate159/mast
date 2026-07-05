@@ -75,7 +75,7 @@ const quizQuestions = [
     options: [
       { img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400", label: "Spiaggia tranquilla con lettini", category: "relax" },
       { img: "https://images.unsplash.com/photo-1520939817895-060bdaf4fe1b?w=400", label: "Spiaggia con sport e onde", category: "avventura" },
-      { img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400", label: "Spiaggia con chiosco gastronomico", category: "foodie" },
+      { img: "https://images.unsplash.com/photo-1551652975-14b0d7778ef4?w=400", label: "Spiaggia con chiosco gastronomico", category: "foodie" },
       { img: "https://images.unsplash.com/photo-1533777851728-3ae5c6cf47d3?w=400", label: "Spiaggia con musica e feste", category: "festa" }
     ]
   },
@@ -83,7 +83,7 @@ const quizQuestions = [
     question: "Cosa ti piace fare la sera?",
     options: [
       { img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400", label: "Rilassarmi guardando il tramonto", category: "relax" },
-      { img: "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=400", label: "Esplorare la città illuminata", category: "cultura" },
+      { img: "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=400", label: "Esplorare la città illuminata", category: "cultura" },
       { img: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400", label: "Cena gourmet con vista mare", category: "foodie" },
       { img: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=400", label: "Ballare fino all'alba", category: "festa" }
     ]
@@ -100,18 +100,18 @@ const quizQuestions = [
   {
     question: "Come immagini il tuo hotel ideale?",
     options: [
-      { img: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400", label: "Spa e centro benessere", category: "relax" },
-      { img: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400", label: "Sport e attività organizzate", category: "avventura" },
+      { img: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=400", label: "Spa e centro benessere", category: "relax" },
+      { img: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400", label: "Sport e attività organizzate", category: "avventura" },
       { img: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400", label: "Ristorante stellato incluso", category: "foodie" },
-      { img: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=400", label: "Vicino a locali e nightlife", category: "festa" }
+      { img: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400", label: "Vicino a locali e nightlife", category: "festa" }
     ]
   },
   {
     question: "Quale esperienza culturale ti affascina?",
     options: [
       { img: "https://images.unsplash.com/photo-1548013146-72479768bada?w=400", label: "Visita a luoghi storici", category: "cultura" },
-      { img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400", label: "Passeggiate panoramiche", category: "relax" },
-      { img: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=400", label: "Escursioni nella natura", category: "avventura" },
+      { img: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400", label: "Passeggiate panoramiche", category: "relax" },
+      { img: "https://images.unsplash.com/photo-1501555088652-0e70eb5df28e?w=400", label: "Escursioni nella natura", category: "avventura" },
       { img: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=400", label: "Concerti ed eventi live", category: "festa" }
     ]
   },
@@ -119,9 +119,9 @@ const quizQuestions = [
     question: "Quale souvenir porteresti a casa?",
     options: [
       { img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400", label: "Prodotti tipici locali", category: "foodie" },
-      { img: "https://images.unsplash.com/photo-1531058020387-3be344556be6?w=400", label: "Foto di paesaggi mozzafiato", category: "avventura" },
-      { img: "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=400", label: "Oggetti artigianali storici", category: "cultura" },
-      { img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400", label: "Ricordi di serate indimenticabili", category: "festa" }
+      { img: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400", label: "Foto di paesaggi mozzafiato", category: "avventura" },
+      { img: "https://images.unsplash.com/photo-1493106641515-6b5631de4bb9?w=400", label: "Oggetti artigianali storici", category: "cultura" },
+      { img: "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=400", label: "Ricordi di serate indimenticabili", category: "festa" }
     ]
   }
 ];
@@ -135,7 +135,7 @@ const quizResults = {
       { img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=300", title: "Spiaggia Bellaria", desc: "Relax totale sul mare" },
       { img: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=300", title: "Yoga al mare", desc: "Laboratori sulla spiaggia" },
       { img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=300", title: "Tramonto sul lungomare", desc: "Passeggiate indimenticabili" },
-      { img: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=300", title: "Hotel con Spa", desc: "Centro benessere incluso" }
+      { img: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=300", title: "Hotel con Spa", desc: "Centro benessere incluso" }
     ]
   },
   avventura: {
@@ -145,8 +145,8 @@ const quizResults = {
     suggestions: [
       { img: "https://images.unsplash.com/photo-1520939817895-060bdaf4fe1b?w=300", title: "Sport acquatici", desc: "Windsurf e kitesurf" },
       { img: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=300", title: "Trekking Montefeltro", desc: "Sentieri panoramici" },
-      { img: "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=300", title: "Parco avventura", desc: "San Marino" },
-      { img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=300", title: "Ciclismo", desc: "Colline romagnole" }
+      { img: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300", title: "Parco avventura", desc: "San Marino" },
+      { img: "https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=300", title: "Ciclismo", desc: "Colline romagnole" }
     ]
   },
   foodie: {
@@ -154,10 +154,10 @@ const quizResults = {
     title: "Sei un Buongustaio!",
     text: "Per te la vacanza è un viaggio nei sapori! A Bellaria: ristoranti di pesce fresco sul porto canale, piadinerie artigianali, cantine con degustazione di Sangiovese. Attività didattiche: corsi di pasta fresca a Rimini, laboratori di piadina romagnola a Cesena, visite alle aziende vinicole dei Colli di Rimini, tour gastronomici a Santarcangelo, museo del Tartufo a Sant'Agata Feltria.",
     suggestions: [
-      { img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=300", title: "Piadina romagnola", desc: "Laboratori a Cesena" },
+      { img: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300", title: "Piadina romagnola", desc: "Laboratori a Cesena" },
       { img: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=300", title: "Ristoranti sul porto", desc: "Pesce fresco a Bellaria" },
       { img: "https://images.unsplash.com/photo-1504376798147-1da06da64318?w=300", title: "Degustazione vini", desc: "Colli di Rimini" },
-      { img: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=300", title: "Tour gastronomico", desc: "Santarcangelo" }
+      { img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=300", title: "Tour gastronomico", desc: "Santarcangelo" }
     ]
   },
   festa: {
@@ -165,10 +165,10 @@ const quizResults = {
     title: "Sei un Festaiolo!",
     text: "La sera è il tuo momento! A Bellaria: Notte Rosa con eventi e concerti, locali sul lungomare, Notte Blu con mercatini e musica dal vivo, le Frecce Tricolori a giugno. Città vicine: discoteche e locali di Rimini e Riccione, festival estivi di Santarcangelo, Paganini e del Blues, eventi all'aperto a Cervia, Villaggio della Spensieratezza.",
     suggestions: [
-      { img: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=300", title: "Notte Rosa", desc: "L'evento dell'estate" },
+      { img: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=300", title: "Notte Rosa", desc: "L'evento dell'estate" },
       { img: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=300", title: "Concerti live", desc: "Sul lungomare" },
       { img: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=300", title: "Discoteche Rimini", desc: "Nightlife famoso" },
-      { img: "https://images.unsplash.com/photo-1533777851728-3ae5c6cf47d3?w=300", title: "Frecce Tricolori", desc: "Spettacolo a giugno" }
+      { img: "https://images.unsplash.com/photo-1471943311424-646960669fbc?w=300", title: "Frecce Tricolori", desc: "Spettacolo a giugno" }
     ]
   },
   cultura: {
@@ -177,9 +177,9 @@ const quizResults = {
     text: "Ami scoprire storia e tradizioni! A Bellaria: Museo della Conchiglia, Casa Rossa di Alfredo Panzini, centro storico con chiese storiche, parco Gelso. Attività didattiche: Arco di Augusto e Ponte di Tiberio a Rimini, musei di San Marino, visita alle Rocche Malatestiane di Rimini e Cesena, Biblioteca Malatestiana UNESCO di Cesena, Montebello con il Castello e il fantasma, Verucchio e il Museo Villanoviano.",
     suggestions: [
       { img: "https://images.unsplash.com/photo-1548013146-72479768bada?w=300", title: "Arco di Augusto", desc: "Rimini storica" },
-      { img: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=300", title: "Biblioteca Malatestiana", desc: "UNESCO a Cesena" },
-      { img: "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=300", title: "Castello di Montebello", desc: "Con il fantasma Azzurrina" },
-      { img: "https://images.unsplash.com/photo-1548013146-72479768bada?w=300", title: "San Marino", desc: "Musei e storia" }
+      { img: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=300", title: "Biblioteca Malatestiana", desc: "UNESCO a Cesena" },
+      { img: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=300", title: "Castello di Montebello", desc: "Con il fantasma Azzurrina" },
+      { img: "https://images.unsplash.com/photo-1523531294919-4bcd7c32e0b2?w=300", title: "San Marino", desc: "Musei e storia" }
     ]
   }
 };
