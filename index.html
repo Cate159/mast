@@ -1,29 +1,98 @@
-<html>
+<!DOCTYPE html>
+<html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vacanze a Bellaria</title>
-    <!-- Collego il CSS -->
-    <link rel="stylesheet" href="style.css">
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vacanze a Bellaria - Mare, Hotel e Relax</title>
+  <meta name="description" content="Organizza la tua vacanza a Bellaria Igea Marina: hotel, spiagge, ristoranti e info utili.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-  
-  <body>
-    <h1> VACANZE A BELLARIA </h1>
-
-<img src="https://img.spiagge.it/images/site/msm/62f213844ee0e-1660031876.jpg" height=100%; width=100%>
-<br>
-<div id="divbottone">
-     <button class="btn-info" id="pulsanteInfo">Clicca qui per maggiori informazioni</button>
-</div>
-    <div class="box-info" id="boxInfo">
-        <h3>Più informazioni</h3>
-      <p> <ol><li>Dove: Riviera Romagnola, tra Rimini e Cesenatico</li>
-     <li>Per chi: Perfetta per famiglie e chi cerca relax, meno per vita notturna da sballo</li><li>Punti forti:Mare Bandiera Blu con 7 km di spiaggia sabbiosa e fondale basso</li><li>Tranquilla ma ben organizzata: parchi, piste ciclabili, isole pedonaliPer bambini: animazione in spiaggia, Parco del Gelso con dinosauri e farfalle</li><li>Prezzi: Hotel da 51€/notte, case vacanza da 18€/notte</li><li>Cosa vedere/fare:Spiaggia con tutti i servizi + sport acquaticiIsola dei Platani per shopping all’ombraTorre Saracena e Casa Rossa di Panzini per culturaBici lungo il fiume Uso </li><li>Periodo migliore: Maggio-Settembre. Luglio ha la Notte Rosa. </li></ol> In 3 parole: mare, famiglia, relax.</p>
-        
+  <!-- BARRA MENU -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Bellaria Vacanze</div>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#hotel">Hotel</a></li>
+        <li><a href="#spiagge">Spiagge</a></li>
+        <li><a href="#ristoranti">Dove mangiare</a></li>
+        <li><a href="#contatti">Contatti</a></li>
+      </ul>
     </div>
+  </nav>
 
-    <script src="script.js"></script>
-  </body>
- 
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div>
+      <h1>Vacanze a Bellaria</h1>
+      <p>Mare, relax e ospitalità romagnola ti aspettano</p>
+    </div>
+  </section>
+
+  <!-- SEZIONE HOTEL -->
+  <div class="container">
+    <section id="hotel">
+      <h2>Hotel e Alloggi</h2>
+      <div class="grid">
+        <div class="info-box">
+          <h3>Cosa trovi a Bellaria</h3>
+          <ul class="info-list">
+            <li>Hotel 3 e 4 stelle fronte mare con pensione completa</li>
+            <li>Residence e appartamenti per famiglie</li>
+            <li>B&B nel centro storico a 2 passi dal mare</li>
+            <li>Campeggi attrezzati con piscina</li>
+            <li>Offerte last minute da maggio a settembre</li>
+          </ul>
+        </div>
+        <div class="img-box">
+          <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800" alt="Hotel a Bellaria">
+        </div>
+      </div>
+    </section>
+
+    <!-- SEZIONE SPIAGGE -->
+    <section id="spiagge">
+      <h2>Le Spiagge di Bellaria Igea Marina</h2>
+      <div class="grid">
+        <div class="img-box">
+          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800" alt="Spiaggia Bellaria">
+        </div>
+        <div class="info-box">
+          <h3>Servizi in spiaggia</h3>
+          <ul class="info-list">
+            <li>Stabilimenti balneari con lettini e ombrelloni</li>
+            <li>Area giochi per bambini e animazione</li>
+            <li>Campi da beach volley e beach tennis</li>
+            <li>Chioschi e bar direttamente sulla sabbia</li>
+            <li>Accesso spiaggia libera attrezzata</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERIA -->
+    <section id="ristoranti">
+      <h2>Dove mangiare & Cosa vedere</h2>
+      <p class="section-desc">Piadina, pesce fresco e i luoghi da non perdere</p>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600" alt="Piadina romagnola">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600" alt="Ristorante pesce">
+        <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=600" alt="Porto canale Bellaria">
+      </div>
+    </section>
+  </div>
+
+  <!-- FOOTER -->
+  <footer id="contatti">
+    <p><strong>Bellaria Vacanze</strong></p>
+    <p>info@bellariavacanze.it | Tel: 0541 123456</p>
+    <p class="copyright">© 2026 Tutti i diritti riservati</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
