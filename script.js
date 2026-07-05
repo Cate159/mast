@@ -86,27 +86,27 @@ const quizResults = {
   relax: {
     icon: "🏝️",
     title: "Sei un Rilassatore!",
-    text: "La tua vacanza ideale è fatta di sole, mare e relax assoluto. Un lettino, un buon libro e il rumore delle onde sono tutto ciò che desideri."
+    text: "La tua vacanza ideale è fatta di sole, mare e relax assoluto. A Bellaria: giornate in spiaggia con lettino e ombrellone, passeggiate sul lungomare al tramonto, aperitivo nei chioschi sulla spiaggia. Attività didattiche vicine: visite guidate alle saline di Cervia, centro visitatori delle oasi naturalistiche della Romagna, laboratori di yoga sulla spiaggia organizzati dagli hotel."
   },
   avventura: {
     icon: "🏄",
     title: "Sei un Avventuriero!",
-    text: "Non stai mai fermo! Sport, escursioni e scoperte sono il tuo motto. Bellaria offre beach volley, windsurf e tantissimi itinerari da esplorare."
+    text: "Non stai mai fermo! A Bellaria: beach volley, windsurf, kitesurf, noleggio biciclette sul lungomare, escursioni in barca lungo la costa. Città vicine: parco avventura di San Marino, sport acquatici a Riccione, ciclismo sulle colline del Montefeltro, escursioni a cavallo nell'entroterra romagnolo, trekking nel Parco del Sasso Simone."
   },
   foodie: {
     icon: "🍝",
     title: "Sei un Buongustaio!",
-    text: "Per te la vacanza è un viaggio nei sapori. Piadina romagnola, pesce fresco e Sangiovese: la tua missione è assaggiare tutto!"
+    text: "Per te la vacanza è un viaggio nei sapori! A Bellaria: ristoranti di pesce fresco sul porto canale, piadinerie artigianali, cantine con degustazione di Sangiovese. Attività didattiche: corsi di pasta fresca a Rimini, laboratori di piadina romagnola a Cesena, visite alle aziende vinicole dei Colli di Rimini, tour gastronomici a Santarcangelo, museo del Tartufo a Sant'Agata Feltria."
   },
   festa: {
     icon: "🎉",
     title: "Sei un Festaiolo!",
-    text: "La sera è il tuo momento! Locali, eventi e Notte Rosa sono fatti per te. Bellaria di notte è uno spettacolo che non puoi perdere."
+    text: "La sera è il tuo momento! A Bellaria: Notte Rosa con eventi e concerti, locali sul lungomare, Notte Blu con mercatini e musica dal vivo, le Frecce Tricolori a giugno. Città vicine: discoteche e locali di Rimini e Riccione, festival estivi di Santarcangelo, Paganini e del Blues, eventi all'aperto a Cervia, Villaggio della Spensieratezza."
   },
   cultura: {
     icon: "🏛️",
     title: "Sei un Esploratore Culturale!",
-    text: "Ami scoprire la storia e le tradizioni locali. Museo della Conchiglia, Casa Rossa di Panzini e il centro storico ti aspettano."
+    text: "Ami scoprire storia e tradizioni! A Bellaria: Museo della Conchiglia, Casa Rossa di Alfredo Panzini, centro storico con chiese storiche, parco Gelso. Attività didattiche: Arco di Augusto e Ponte di Tiberio a Rimini, musei di San Marino, visita alle Rocche Malatestiane di Rimini e Cesena, Biblioteca Malatestiana UNESCO di Cesena, Montebello con il Castello e il fantasma, Verucchio e il Museo Villanoviano."
   }
 };
 
