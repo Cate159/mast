@@ -282,6 +282,124 @@ h2 {
   margin-top: 8px;
 }
 
+/* CONTATTI */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 32px;
+}
+
+.contact-info {
+  background: var(--bg-light);
+  padding: 32px;
+  border-radius: var(--radius);
+}
+
+.contact-info h3 {
+  font-size: 1.5rem;
+  color: var(--blu-scuro);
+  margin-bottom: 24px;
+}
+
+.contact-list {
+  list-style: none;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: start;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.contact-list li:last-child {
+  border-bottom: none;
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  background: var(--blu-mare);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-list strong {
+  display: block;
+  color: var(--blu-scuro);
+  margin-bottom: 4px;
+}
+
+.contact-list p {
+  color: #6B7280;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.contact-form-box {
+  background: var(--bg-light);
+  padding: 32px;
+  border-radius: var(--radius);
+}
+
+.contact-form-box h3 {
+  font-size: 1.5rem;
+  color: var(--blu-scuro);
+  margin-bottom: 24px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #E5E7EB;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border-color .3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--blu-mare);
+}
+
+.form-btn {
+  width: 100%;
+  padding: 14px 24px;
+  background: var(--blu-mare);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .3s, transform .2s;
+}
+
+.form-btn:hover {
+  background: var(--blu-scuro);
+  transform: translateY(-2px);
+}
+
 /* FOOTER */
 footer {
   background: var(--blu-scuro);
@@ -323,5 +441,9 @@ footer {
 
   .hero {
     height: 50vh;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
   }
 }
